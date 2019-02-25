@@ -1,6 +1,6 @@
 {
   "name": "@marissen/stylelint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A shareable stylelint config object that enforces Marissen css rules",
   "homepage": "https://github.com/marissen/stylelint-config#readme",
   "author": "Marissen (https://github.com/marissen)",
