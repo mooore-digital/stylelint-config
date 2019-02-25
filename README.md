@@ -66,7 +66,7 @@ then add your overrides and additions there.
 The Marissen style-config is based on the [@fylgja/stylelint-config](https://github.com/getfylgja/stylelint-config)
 And most rules are set [there](https://github.com/getfylgja/stylelint-config#rules).
 
-We only optimized it to match our Magento Env's.
+We only optimized it to match our Magento environments.
 
 To checkout our rules see each config file.
 
