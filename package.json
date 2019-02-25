@@ -1,0 +1,33 @@
+{
+  "name": "@marissen/stylelint-config",
+  "version": "0.0.0",
+  "description": "A shareable stylelint config object that enforces Marissen css rules",
+  "homepage": "https://github.com/marissen/stylelint-config#readme",
+  "author": "Marissen (https://github.com/marissen)",
+  "contributors": [
+    "Sean van Zuidam (https://github.com/GrimLink)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "marissen",
+    "stylelint",
+    "stylelint-config",
+    "lint",
+    "css"
+  ],
+  "main": "magento/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marissen/stylelint-config.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "@fylgja/stylelint-config": "^2.0.1",
+    "stylelint-scss": "^3.5.4"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.10.1"
+  }
+}
