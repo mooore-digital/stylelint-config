@@ -24,10 +24,10 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fylgja/stylelint-config": "^2.0.1",
-    "stylelint-scss": "^3.5.4"
+    "@fylgja/stylelint-config": "^2.2.*",
+    "stylelint-scss": "^3.5.*"
   },
   "peerDependencies": {
-    "stylelint": "^9.10.1"
+    "stylelint": "^9.10.*"
   }
 }
