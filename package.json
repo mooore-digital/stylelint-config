@@ -21,13 +21,13 @@
     "url": "git+https://github.com/marissen/stylelint-config.git"
   },
   "engines": {
-    "node": ">=6"
-  },
-  "dependencies": {
-    "@fylgja/stylelint-config": "^2.2.*",
-    "stylelint-scss": "^3.5.*"
+    "node": ">=8.7.0"
   },
   "peerDependencies": {
-    "stylelint": "^9.10.*"
+    "stylelint": "^9.0.0 || ^10.0.0"
+  },
+  "dependencies": {
+    "@fylgja/stylelint-config": "^2.2.2",
+    "stylelint-scss": "^3.6.0"
   }
 }
