@@ -1,5 +1,5 @@
 {
-  "name": "@marissen/stylelint-config",
+  "name": "@mooore/stylelint-config",
   "version": "1.1.1",
   "description": "A shareable stylelint config object that enforces Marissen css rules",
   "homepage": "https://github.com/marissen/stylelint-config#readme",
@@ -10,6 +10,7 @@
   "license": "MIT",
   "keywords": [
     "marissen",
+    "mooore",
     "stylelint",
     "stylelint-config",
     "lint",
