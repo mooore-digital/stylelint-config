@@ -1,4 +1,4 @@
-# Marissen stylelint-config (SCSS)
+# Mooore stylelint-config (SCSS)
 
 Our SCSS version is little bit more strict than our [magento config version](../magento).
 

@@ -1,16 +1,14 @@
 {
   "name": "@mooore/stylelint-config",
   "version": "1.1.1",
-  "description": "A shareable stylelint config object that enforces Marissen css rules",
-  "homepage": "https://github.com/marissen/stylelint-config#readme",
-  "author": "Marissen (https://github.com/marissen)",
-  "contributors": [
-    "Sean van Zuidam (https://github.com/GrimLink)"
-  ],
+  "description": "A shareable stylelint config object that enforces Mooore css rules",
+  "homepage": "https://mooore.nl/",
+  "author": "Mooore (https://github.com/mooore)",
   "license": "MIT",
   "keywords": [
     "marissen",
     "mooore",
+    "fylgja",
     "stylelint",
     "stylelint-config",
     "lint",
@@ -19,16 +17,9 @@
   "main": "magento/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marissen/stylelint-config.git"
-  },
-  "engines": {
-    "node": ">=8.7.0"
-  },
-  "peerDependencies": {
-    "stylelint": "^9.0.0 || ^10.0.0"
+    "url": "https://github.com/mooore-digital/stylelint-config"
   },
   "dependencies": {
-    "@fylgja/stylelint-config": "^2.2.2",
-    "stylelint-scss": "^3.6.0"
+    "@fylgja/stylelint-config": "^3.0.0"
   }
 }

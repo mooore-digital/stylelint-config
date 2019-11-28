@@ -1,8 +1,8 @@
-# Marissen stylelint-config
+# Mooore stylelint-config
 
-[![NPM version](https://img.shields.io/npm/v/@marissen/stylelint-config.svg)](https://www.npmjs.org/package/@marissen/stylelint-config)
+[![NPM version](https://img.shields.io/npm/v/@mooore/stylelint-config.svg)](https://www.npmjs.org/package/@mooore/stylelint-config)
 
-A sharable stylelint config object that enforces Marissen css rules.
+A sharable stylelint config object that enforces Mooore Digital css rules.
 
 <details><summary>Table of Contents</summary>
 
@@ -12,6 +12,7 @@ A sharable stylelint config object that enforces Marissen css rules.
 - [Extensions](#extensions)
   - [SCSS](#scss)
 - [Rules](#rules)
+- [TODO](#todo)
 - [License](#license)
 
 </details>
@@ -19,16 +20,17 @@ A sharable stylelint config object that enforces Marissen css rules.
 ## Installation
 
 ```bash
-npm install @marissen/stylelint-config --save-dev
+npm install @mooore/stylelint-config --save-dev
 ```
 
 ## Usage
 
-If you've installed @marissen/stylelint-config, just set your stylelint config to:
+If you've installed @mooore/stylelint-config,
+just set your stylelint config to:
 
 ```json
 {
-  "extends": "@marissen/stylelint-config"
+  "extends": "@mooore/stylelint-config"
 }
 ```
 
@@ -39,12 +41,12 @@ then add your overrides and additions there.
 
 ```json
 {
-  "extends": "@marissen/stylelint-config",
+  "extends": "@mooore/stylelint-config",
   "rules": {
     "rule-empty-line-before": [
         "always-multi-line", {
-            except: ["first-nested"],
-            ignore: ["after-comment"]
+            "except": ["first-nested"],
+            "ignore": ["after-comment"]
         }
     ],
   }
@@ -57,18 +59,23 @@ then add your overrides and additions there.
 
 ```json
 {
-  "extends": "@marissen/stylelint-config/scss"
+  "extends": "@mooore/stylelint-config/scss"
 }
 ```
 
 ## Rules
 
-The Marissen style-config is based on the [@fylgja/stylelint-config](https://github.com/getfylgja/stylelint-config)
+The Mooore style-config is based on the [@fylgja/stylelint-config](https://github.com/getfylgja/stylelint-config)
 And most rules are set [there](https://github.com/getfylgja/stylelint-config#rules).
 
 We only optimized it to match our Magento environments.
 
 To checkout our rules see each config file.
 
+## TODO
+
+- [ ] ADD: snowdog support
+- [ ] Make the SCSS version default
+
 ## License
-[MIT](LICENSE) © [Marissen e-commerce](https://www.marissen.net)
+[MIT](LICENSE) © [Mooore Digital](https://www.mooore.nl)
