@@ -1,6 +1,7 @@
 # Changelog
 
 ## 1.3.0 - (2019-12-12)
+* ADD: snowdog frontools config
 * IMP: change scss version to the Fylgja version with upsets
 
 ## 1.2.0 - (2019-11-28)
