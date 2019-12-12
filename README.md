@@ -10,7 +10,7 @@ A sharable stylelint config object that enforces Mooore Digital css rules.
 - [Usage](#usage)
 - [Extending](#extending)
 - [Extensions](#extensions)
-  - [SCSS](#scss)
+  - [Magento (LESS)](#magento-less)
 - [Rules](#rules)
 - [License](#license)
 
@@ -54,11 +54,14 @@ then add your overrides and additions there.
 
 ## Extensions
 
-### SCSS
+### Magento (LESS)
+
+We moved the SCSS as default compiler.
+To use the LESS version add magento to the end.
 
 ```json
 {
-  "extends": "@mooore/stylelint-config/scss"
+  "extends": "@mooore/stylelint-config/magento"
 }
 ```
 
