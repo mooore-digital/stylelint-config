@@ -12,7 +12,6 @@ A sharable stylelint config object that enforces Mooore Digital css rules.
 - [Extensions](#extensions)
   - [SCSS](#scss)
 - [Rules](#rules)
-- [TODO](#todo)
 - [License](#license)
 
 </details>
@@ -71,11 +70,6 @@ And most rules are set [there](https://github.com/getfylgja/stylelint-config#rul
 We only optimized it to match our Magento environments.
 
 To checkout our rules see each config file.
-
-## TODO
-
-- [ ] ADD: snowdog support
-- [ ] Make the SCSS version default
 
 ## License
 [MIT](LICENSE) © [Mooore Digital](https://www.mooore.nl)
