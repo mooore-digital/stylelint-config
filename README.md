@@ -56,7 +56,7 @@ then add your overrides and additions there.
 
 ### Magento (LESS)
 
-We moved the SCSS as default compiler.
+We moved to the SCSS version as default compiler.
 To use the LESS version add magento to the end.
 
 ```json
