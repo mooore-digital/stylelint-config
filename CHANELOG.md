@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0 - (2020-07-31)
+* UP: versions for dependencies
+* IMP: set correct less dependency
+
 ## 1.3.0 - (2019-12-12)
 * ADD: snowdog frontools config
 * IMP: change scss version to the Fylgja version with unsets

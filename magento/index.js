@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "@fylgja/stylelint-config",
+  extends: "@fylgja/stylelint-config/less",
   rules: {
     "max-nesting-depth": [6, { severity: "warning" }],
     "media-feature-name-no-unknown": null,
