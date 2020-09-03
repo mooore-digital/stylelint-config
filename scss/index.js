@@ -31,6 +31,7 @@ module.exports = {
       "always",
       { severity: "warning" }
     ],
+    "scss/comment-no-empty": null,
     "scss/operator-no-newline-after": null,
     "scss/operator-no-newline-before": [true, { severity: "warning" }],
     "scss/operator-no-unspaced": null,

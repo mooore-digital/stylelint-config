@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.1 - (2020-09-003)
+* FIX: unset rule scss/comment-no-empty
+
 ## 1.4.0 - (2020-07-31)
 * UP: versions for dependencies
 * IMP: set correct less dependency
