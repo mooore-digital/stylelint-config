@@ -8,6 +8,6 @@ module.exports = {
     "selector-max-compound-selectors": null,
     "selector-max-id": 1,
     "selector-max-class": 5,
-    "selector-max-type": 4
-  }
+    "selector-max-type": 4,
+  },
 };

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.2 - (2020-09-003)
+* DEL: rule scss/media-feature-value-dollar-variable, rule allready correct in @fylgja
+* IMP: Formating
+
 ## 1.4.1 - (2020-09-003)
 * FIX: unset rule scss/comment-no-empty
 

@@ -3,11 +3,26 @@ module.exports = {
   rules: {
     "at-rule-no-unknown": null,
     "block-closing-brace-empty-line-before": ["never", { severity: "warning" }],
-    "block-closing-brace-newline-after": ["always", { severity: "warning", ignoreAtRules: ["if", "else"] }],
-    "block-closing-brace-newline-before": ["always-multi-line", { severity: "warning" }],
-    "block-closing-brace-space-before": ["always-single-line", { severity: "warning" }],
-    "block-opening-brace-newline-after": ["always-multi-line", { severity: "warning" }],
-    "block-opening-brace-space-after": ["always-single-line", { severity: "warning" }],
+    "block-closing-brace-newline-after": [
+      "always",
+      { severity: "warning", ignoreAtRules: ["if", "else"] },
+    ],
+    "block-closing-brace-newline-before": [
+      "always-multi-line",
+      { severity: "warning" },
+    ],
+    "block-closing-brace-space-before": [
+      "always-single-line",
+      { severity: "warning" },
+    ],
+    "block-opening-brace-newline-after": [
+      "always-multi-line",
+      { severity: "warning" },
+    ],
+    "block-opening-brace-space-after": [
+      "always-single-line",
+      { severity: "warning" },
+    ],
     "block-opening-brace-space-before": ["always", { severity: "warning" }],
     "color-hex-case": ["lower", { severity: "warning" }],
     "color-hex-length": ["short", { severity: "warning" }],
@@ -15,7 +30,10 @@ module.exports = {
     "declaration-no-important": null,
     "declaration-block-trailing-semicolon": ["always", { severity: "warning" }],
     "function-calc-no-invalid": null,
-    "function-parentheses-space-inside": ["never-single-line", { severity: "warning" }],
+    "function-parentheses-space-inside": [
+      "never-single-line",
+      { severity: "warning" },
+    ],
     "function-whitespace-after": ["always", { severity: "warning" }],
     "max-line-length": null,
     "max-empty-lines": null,
@@ -34,8 +52,17 @@ module.exports = {
     "string-quotes": null,
     "function-url-quotes": null,
     "shorthand-property-no-redundant-values": [true, { severity: "warning" }],
-    "property-no-vendor-prefix": [true, { severity: "warning", ignoreProperties: ["appearance"] }],
-    "property-no-unknown": [true, { severity: "warning", ignoreProperties: "/^mso-/"}],
-    "selector-pseudo-element-colon-notation": ["double", { severity: "warning"}]
-  }
+    "property-no-vendor-prefix": [
+      true,
+      { severity: "warning", ignoreProperties: ["appearance"] },
+    ],
+    "property-no-unknown": [
+      true,
+      { severity: "warning", ignoreProperties: "/^mso-/" },
+    ],
+    "selector-pseudo-element-colon-notation": [
+      "double",
+      { severity: "warning" },
+    ],
+  },
 };

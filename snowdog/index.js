@@ -2,7 +2,7 @@ module.exports = {
   rules: {
     "at-rule-empty-line-before": null,
     "block-closing-brace-newline-before": null,
-    "indentation": null,
+    indentation: null,
     "rule-empty-line-before": null,
     "selector-list-comma-newline-after": null,
     "selector-pseudo-element-colon-notation": null,
@@ -20,6 +20,6 @@ module.exports = {
     "block-opening-brace-space-after": null,
     "declaration-block-single-line-max-declarations": null,
     "number-leading-zero": null,
-    "function-comma-space-after": null
-  }
+    "function-comma-space-after": null,
+  },
 };

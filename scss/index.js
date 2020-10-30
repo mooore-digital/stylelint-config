@@ -1,14 +1,32 @@
 module.exports = {
   extends: ["@fylgja/stylelint-config/scss"],
   rules: {
-    "scss/at-else-closing-brace-newline-after": ["always-last-in-chain", { severity: "warning" }],
-    "scss/at-else-closing-brace-space-after": ["always-intermediate", { severity: "warning" }],
+    "scss/at-else-closing-brace-newline-after": [
+      "always-last-in-chain",
+      { severity: "warning" },
+    ],
+    "scss/at-else-closing-brace-space-after": [
+      "always-intermediate",
+      { severity: "warning" },
+    ],
     "scss/at-else-empty-line-before": ["never", { severity: "warning" }],
-    "scss/at-else-if-parentheses-space-before": ["always", { severity: "warning" }],
+    "scss/at-else-if-parentheses-space-before": [
+      "always",
+      { severity: "warning" },
+    ],
     "scss/at-extend-no-missing-placeholder": null,
-    "scss/at-function-parentheses-space-before": ["never", { severity: "warning" }],
-    "scss/at-if-closing-brace-newline-after": ["always-last-in-chain", { severity: "warning" }],
-    "scss/at-if-closing-brace-space-after": ["always-intermediate", { severity: "warning" }],
+    "scss/at-function-parentheses-space-before": [
+      "never",
+      { severity: "warning" },
+    ],
+    "scss/at-if-closing-brace-newline-after": [
+      "always-last-in-chain",
+      { severity: "warning" },
+    ],
+    "scss/at-if-closing-brace-space-after": [
+      "always-intermediate",
+      { severity: "warning" },
+    ],
     "scss/at-if-no-null": null,
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-mixin-argumentless-call-parentheses": null,
@@ -31,6 +49,9 @@ module.exports = {
     "scss/operator-no-newline-after": null,
     "scss/operator-no-newline-before": [true, { severity: "warning" }],
     "scss/operator-no-unspaced": null,
-    "scss/selector-no-redundant-nesting-selector": [true, { severity: "warning" }]
-  }
+    "scss/selector-no-redundant-nesting-selector": [
+      true,
+      { severity: "warning" },
+    ],
+  },
 };
