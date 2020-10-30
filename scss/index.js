@@ -24,12 +24,8 @@ module.exports = {
       true,
       {
         severity: "warning",
-        message: "Use the new scss color functions instead!"
-      }
-    ],
-    "scss/media-feature-value-dollar-variable": [
-      "always",
-      { severity: "warning" }
+        message: "Use the new scss color functions instead!",
+      },
     ],
     "scss/comment-no-empty": null,
     "scss/operator-no-newline-after": null,
