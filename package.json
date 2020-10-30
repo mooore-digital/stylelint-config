@@ -1,6 +1,6 @@
 {
   "name": "@mooore/stylelint-config",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A shareable stylelint config object that enforces Mooore css rules",
   "homepage": "https://mooore.nl/",
   "author": "Mooore (https://github.com/mooore)",
