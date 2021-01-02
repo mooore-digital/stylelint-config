@@ -1,15 +1,19 @@
 # Changelog
 
-## 1.4.2 - (2020-09-003)
+## 1.5.0 - (2021-01-02)
+* IMP: update dependencies
+
+## 1.4.2 - (2020-10-30)
 * DEL: rule scss/media-feature-value-dollar-variable, rule allready correct in @fylgja
 * IMP: Formating
 
-## 1.4.1 - (2020-09-003)
+## 1.4.1 - (2020-09-03)
 * FIX: unset rule scss/comment-no-empty
 
 ## 1.4.0 - (2020-07-31)
-* UP: versions for dependencies
-* IMP: set correct less dependency
+* IMP:
+  * update dependencies
+  * set correct less dependency
 
 ## 1.3.0 - (2019-12-12)
 * ADD: snowdog frontools config
