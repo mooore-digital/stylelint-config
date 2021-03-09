@@ -13,7 +13,7 @@ module.exports = {
     ],
     "block-closing-brace-space-before": [
       "always-single-line",
-      { severity: "warning" },
+      { severity: "warning", ignoreAtRules: ["if", "else"] },
     ],
     "block-opening-brace-newline-after": [
       "always-multi-line",
