@@ -20,7 +20,7 @@
     "url": "https://github.com/mooore-digital/stylelint-config"
   },
   "dependencies": {
-    "@fylgja/stylelint-config": "^3.3",
-    "stylelint": "^13.8"
+    "@fylgja/stylelint-config": "^3.4.0",
+    "stylelint": "^13.12.0"
   }
 }

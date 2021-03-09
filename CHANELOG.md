@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.0 - (2021-03-09)
+* IMP:
+  * update dependencies
+  * block-closing-brace-space-before rule
+
 ## 1.5.0 - (2021-01-02)
 * IMP: update dependencies
 
