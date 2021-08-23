@@ -3,6 +3,5 @@
 # For more information
 
 /node_modules
-/package-lock.json
 /.vscode
 /.idea
