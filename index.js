@@ -24,7 +24,6 @@ module.exports = {
       { severity: "warning" },
     ],
     "block-opening-brace-space-before": ["always", { severity: "warning" }],
-    "color-hex-length": ["short", { severity: "warning" }],
     "declaration-empty-line-before": null,
     "declaration-no-important": null,
     "declaration-block-trailing-semicolon": ["always", { severity: "warning" }],

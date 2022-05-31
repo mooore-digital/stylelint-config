@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   to make it clear that this is for the LESS syntax
 - Cleanup SCSS syntax with new version
 - Hex values will now trow an error if the not lowercase
+- Hex values will now trow an error if used in long syntax
 
 ## [1.6.1] - 2021-08-23
 ### Changed
