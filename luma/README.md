@@ -1,4 +1,4 @@
-# Mooore stylelint-config (Magento)
+# Mooore stylelint-config (Luma)
 
 When use the Magento 2 default LESS compiler.
 These are out style rules we set.

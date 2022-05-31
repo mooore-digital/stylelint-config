@@ -1,6 +1,8 @@
 # Mooore stylelint-config (SCSS)
 
-Our SCSS version is little bit more strict than our [magento config version](../magento).
+Our SCSS version is little bit more strict than our [luma config version](../luma).
 
-On any other project we use SCSS.
-Instead of the Magento 2 LESS.
+This uses the `@fylgja/stylelint-config/scss`,
+and makes some rules trow a warning instead a error to have less strictness
+
+_This file is mainly used for the base import with the snowdog config._
