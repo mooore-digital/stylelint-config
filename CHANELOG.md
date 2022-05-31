@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Dependencies
 - **Breaking Change!** renamed config for _magento_ to _luma_,
   to make it clear that this is for the LESS syntax
+- Cleanup SCSS syntax with new version
 
 ## [1.6.1] - 2021-08-23
 ### Changed

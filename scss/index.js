@@ -1,5 +1,7 @@
 module.exports = {
   extends: ["@fylgja/stylelint-config/scss"],
+  customSyntax: "postcss-scss",
+  plugins: ["stylelint-scss"],
   rules: {
     "scss/at-else-closing-brace-newline-after": [
       "always-last-in-chain",
@@ -33,20 +35,11 @@ module.exports = {
     "scss/at-mixin-parentheses-space-before": null,
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": [true, { severity: "warning" }],
-    "scss/dollar-variable-colon-newline-after": null,
     "scss/dollar-variable-colon-space-after": null,
     "scss/dollar-variable-colon-space-before": null,
     "scss/dollar-variable-no-missing-interpolation": null,
     "scss/double-slash-comment-whitespace-inside": "always",
-    "scss/function-color-relative": [
-      true,
-      {
-        severity: "warning",
-        message: "Use the new scss color functions instead!",
-      },
-    ],
     "scss/comment-no-empty": null,
-    "scss/operator-no-newline-after": null,
     "scss/operator-no-newline-before": [true, { severity: "warning" }],
     "scss/operator-no-unspaced": null,
     "scss/selector-no-redundant-nesting-selector": [
