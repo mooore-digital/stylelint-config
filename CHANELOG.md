@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Breaking Change!** renamed config for _magento_ to _luma_,
   to make it clear that this is for the LESS syntax
 - Cleanup SCSS syntax with new version
+- Hex values will now trow an error if the not lowercase
 
 ## [1.6.1] - 2021-08-23
 ### Changed
