@@ -53,7 +53,6 @@ module.exports = {
     ],
     "declaration-empty-line-before": null,
     "declaration-no-important": null,
-    "function-calc-no-invalid": null,
     "function-parentheses-space-inside": [
       "never-single-line",
       { severity: "warning" },

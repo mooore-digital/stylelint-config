@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - tests
 
+### Fixed
+- `function-calc-no-invalid` rule by removing it
+
 ## [1.7.0] - 2022-06-01
 ### Added
 - `@when` support in multi line rules
