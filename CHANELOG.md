@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cleanup SCSS syntax with new version
 - Hex values will now trow an error if the not lowercase
 - Hex values will now trow an error if used in long syntax
+- Make more rules spit warning instead of using null
 
 ## [1.6.1] - 2021-08-23
 ### Changed
