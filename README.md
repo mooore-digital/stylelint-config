@@ -4,18 +4,6 @@
 
 A sharable stylelint config object that enforces Mooore Digital css rules.
 
-<details><summary>Table of Contents</summary>
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Extending](#extending)
-- [Extensions](#extensions)
-  - [Magento (LESS)](#magento-less)
-- [Rules](#rules)
-- [License](#license)
-
-</details>
-
 ## Installation
 
 ```bash
