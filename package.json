@@ -15,6 +15,11 @@
     "css"
   ],
   "main": "index.js",
+  "scripts": {
+    "test:scss": "stylelint _tests_/**/*.scss --config scss/index.js",
+    "test:main": "stylelint _tests_/**/*.css --config index.js",
+    "test": "npm run test:scss && npm run test:main"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mooore-digital/stylelint-config"
