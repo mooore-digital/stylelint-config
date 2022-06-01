@@ -61,7 +61,7 @@ To use the LESS version add magento to the end.
 
 ```json
 {
-  "extends": "@mooore/stylelint-config/magento"
+  "extends": "@mooore/stylelint-config/luma"
 }
 ```
 
