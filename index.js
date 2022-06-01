@@ -1,11 +1,29 @@
 module.exports = {
   extends: ["./snowdog", "./scss"],
   rules: {
-    "at-rule-no-unknown": null,
+    "at-rule-no-unknown": [
+      true,
+      {
+        severity: "warning",
+        ignoreAtRules: [
+          "for",
+          "each",
+          "if",
+          "else",
+          "mixin",
+          "/^mixin-/",
+          "include",
+          "screen",
+        ],
+      },
+    ],
     "block-closing-brace-empty-line-before": ["never", { severity: "warning" }],
     "block-closing-brace-newline-after": [
-      "always",
-      { severity: "warning", ignoreAtRules: ["if", "else"] },
+      "always-multi-line",
+      {
+        severity: "warning",
+        ignoreAtRules: ["if", "else", "when"],
+      },
     ],
     "block-closing-brace-newline-before": [
       "always-multi-line",
@@ -13,7 +31,10 @@ module.exports = {
     ],
     "block-closing-brace-space-before": [
       "always-single-line",
-      { severity: "warning", ignoreAtRules: ["if", "else"] },
+      {
+        severity: "warning",
+        ignoreAtRules: ["if", "else", "when"],
+      },
     ],
     "block-opening-brace-newline-after": [
       "always-multi-line",
@@ -23,7 +44,13 @@ module.exports = {
       "always-single-line",
       { severity: "warning" },
     ],
-    "block-opening-brace-space-before": ["always", { severity: "warning" }],
+    "block-opening-brace-space-before": [
+      "always",
+      {
+        severity: "warning",
+        ignoreAtRules: ["if", "else", "when"],
+      },
+    ],
     "declaration-empty-line-before": null,
     "declaration-no-important": null,
     "declaration-block-trailing-semicolon": ["always", { severity: "warning" }],
