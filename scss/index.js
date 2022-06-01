@@ -1,7 +1,6 @@
 module.exports = {
   extends: ["@fylgja/stylelint-config/scss"],
   customSyntax: "postcss-scss",
-  plugins: ["stylelint-scss"],
   rules: {
     "scss/at-else-closing-brace-newline-after": [
       "always-last-in-chain",

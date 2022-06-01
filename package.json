@@ -25,7 +25,8 @@
     "url": "https://github.com/mooore-digital/stylelint-config"
   },
   "dependencies": {
-    "@fylgja/stylelint-config": "^4.1.1"
+    "@fylgja/stylelint-config": "^4.1.1",
+    "postcss-scss": "^4.0.4"
   },
   "devDependencies": {
     "stylelint": "^14.6.1"
