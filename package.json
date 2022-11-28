@@ -1,6 +1,6 @@
 {
   "name": "@mooore/stylelint-config",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "description": "A shareable stylelint config object that enforces Mooore css rules",
   "homepage": "https://mooore.nl/",
   "author": "Mooore (https://github.com/mooore)",
@@ -16,22 +16,26 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test:scss": "stylelint _tests_/**/*.scss --config scss/index.js",
-    "test:main": "stylelint _tests_/**/*.css --config index.js",
-    "test": "npm run test:scss && npm run test:main"
+    "test:luma": "stylelint _tests_/index.less --config luma.js",
+    "test:snowdog": "stylelint _tests_/index.scss --config snowdog.js",
+    "test:hyva": "stylelint _tests_/hyva.phtml --config index.js",
+    "test:scss": "stylelint _tests_/index.scss --config scss.js",
+    "test:main": "stylelint _tests_/index.{css,phtml,vue} --config index.js",
+    "test": "npm run test:luma && npm run test:snowdog && npm run test:hyva && npm run test:scss && npm run test:main"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mooore-digital/stylelint-config"
   },
   "dependencies": {
-    "@fylgja/stylelint-config": "^4.1.1",
-    "postcss-scss": "^4.0.4"
+    "@fylgja/stylelint-config": "^5.0.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6"
   },
   "devDependencies": {
-    "stylelint": "^14.6.1"
+    "stylelint": "^14.15.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.6.1"
+    "stylelint": "^14.14.0"
   }
 }
