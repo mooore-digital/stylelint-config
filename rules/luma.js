@@ -1,5 +1,4 @@
 module.exports = {
-  extends: "@fylgja/stylelint-config",
   rules: {
     "at-rule-no-unknown": [
       true,
@@ -26,5 +25,24 @@ module.exports = {
     "selector-max-id": 1,
     "selector-max-class": 5,
     "selector-max-type": 4,
+    "property-no-unknown": [
+      true,
+      { severity: "warning", ignoreProperties: "/^mso-/" },
+    ],
+    "property-no-vendor-prefix": [
+      true,
+      {
+        severity: "warning",
+        ignoreProperties: [
+          "appearance",
+          "text-size-adjust",
+          "tap-highlight-color",
+        ],
+      },
+    ],
+    "selector-pseudo-element-colon-notation": [
+      "double",
+      { severity: "warning" },
+    ],
   },
 };
