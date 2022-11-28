@@ -1,16 +1,12 @@
-@use "sass:color";
-@import "import.css";
-@use "use" as *;
-
-$var-name: "prop" !default;
-$bg: rgba(#ddd, 0.3) !default;
+@var-name: "prop";
+@bg: rgba(#ddd, 0.3);
 
 .order-example {
     @include use-mixin;
 
     /* var's/special setters */
     --color-theme: hsl(270 50% 40%);
-    --#{$var-name}: "value";
+    --@{var-name}: "value";
     content: attr();
     counter-reset: section;
     counter-increment: section;
@@ -41,7 +37,7 @@ $bg: rgba(#ddd, 0.3) !default;
     padding: 0;
     border-radius: 50%;
     border: 1px solid currentcolor;
-    box-shadow: 0 0 0 color.change(#fff, $opacity: 0.2);
+    box-shadow: 0 0 0 fade(#fff, 20%);
     outline: none;
 
     /* Visual */

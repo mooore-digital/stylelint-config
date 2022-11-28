@@ -1,16 +1,21 @@
-@use "sass:color";
-@import "import.css";
-@use "use" as *;
+<script>
+export default {
+    data() {
+        return {
+            greeting: "Hello there",
+        };
+    },
+};
+</script>
 
-$var-name: "prop" !default;
-$bg: rgba(#ddd, 0.3) !default;
+<template>
+    <p class="greeting">{{ greeting }}</p>
+</template>
 
+<style>
 .order-example {
-    @include use-mixin;
-
     /* var's/special setters */
     --color-theme: hsl(270 50% 40%);
-    --#{$var-name}: "value";
     content: attr();
     counter-reset: section;
     counter-increment: section;
@@ -41,7 +46,7 @@ $bg: rgba(#ddd, 0.3) !default;
     padding: 0;
     border-radius: 50%;
     border: 1px solid currentcolor;
-    box-shadow: 0 0 0 color.change(#fff, $opacity: 0.2);
+    box-shadow: 0 0 0 #fff2;
     outline: none;
 
     /* Visual */
@@ -62,7 +67,7 @@ $bg: rgba(#ddd, 0.3) !default;
 
     /* Misc */
     transform: scaleX(1);
-    opacity: 0.8;
+    opacity: 1;
     animation: 3s infinite;
     transition: transform 0.2s linear;
     appearance: none;
@@ -72,8 +77,17 @@ $bg: rgba(#ddd, 0.3) !default;
 }
 
 /* Fylgja specific */
-.class {
-    &.-with-modifier {
-        --var: var(--text, "yeah");
+.class.-with-modifier {
+    --var: var(--text, "yeah");
+}
+
+/* Animations */
+@keyframes foo {
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(1.5);
     }
 }
+</style>
