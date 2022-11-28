@@ -6,13 +6,12 @@
   "author": "Mooore (https://github.com/mooore)",
   "license": "MIT",
   "keywords": [
-    "marissen",
     "mooore",
     "fylgja",
     "stylelint",
     "stylelint-config",
-    "lint",
-    "css"
+    "magento",
+    "hyva"
   ],
   "main": "index.js",
   "scripts": {

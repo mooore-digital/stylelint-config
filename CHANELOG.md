@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2022-11-28
+### Added
+- Add specific syntax support for Luma
+- Add specific syntax support for Hyva
+- Add specific syntax support for SCSS (without Magento)
+
+### Changed
+- Renamed scss to snowdog for snowdog specific syntax
+- Updated Fylgja stylelint to v5.0,
+  this add support for parsing inline styles
+
+### Removed
+- Any Magento rules from index,
+  Use the new specific syntax instead
+
 ## [1.7.1] - 2022-06-01
 ### Added
 - tests
