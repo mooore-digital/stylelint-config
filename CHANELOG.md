@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 2022-11-28
+### Fixed
+- Line length rule on Tailwind by unsetting it
+
 ## [2.0.0] - 2022-11-28
 ### Added
 - Add specific syntax support for Luma

@@ -1,6 +1,6 @@
 {
   "name": "@mooore/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A shareable stylelint config object that enforces Mooore css rules",
   "homepage": "https://mooore.nl/",
   "author": "Mooore (https://github.com/mooore)",
@@ -27,7 +27,7 @@
     "url": "https://github.com/mooore-digital/stylelint-config"
   },
   "dependencies": {
-    "@fylgja/stylelint-config": "^5.0.0",
+    "@fylgja/stylelint-config": "^5.0.1",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.6"
   },
