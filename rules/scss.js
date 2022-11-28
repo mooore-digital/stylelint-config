@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["@fylgja/stylelint-config/scss"],
+  extends: ["@fylgja/stylelint-config/rules/scss"],
   customSyntax: "postcss-scss",
   rules: {
     "scss/at-else-closing-brace-newline-after": [

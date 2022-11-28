@@ -21,5 +21,25 @@ module.exports = {
     "declaration-block-single-line-max-declarations": null,
     "number-leading-zero": null,
     "function-comma-space-after": null,
+    // custom rules
+    "property-no-unknown": [
+      true,
+      { severity: "warning", ignoreProperties: "/^mso-/" },
+    ],
+    "property-no-vendor-prefix": [
+      true,
+      {
+        severity: "warning",
+        ignoreProperties: [
+          "appearance",
+          "text-size-adjust",
+          "tap-highlight-color",
+        ],
+      },
+    ],
+    "selector-pseudo-element-colon-notation": [
+      "double",
+      { severity: "warning" },
+    ],
   },
 };
