@@ -12,6 +12,7 @@ const { svgPresentation } = require("./groups/svg-presentation");
 const propertyGroups = [
   ["composes"],
   ["all"],
+  ["box-sizing"],
   interaction,
   positioning,
   layout,
@@ -24,7 +25,6 @@ const propertyGroups = [
 
 const propertiesOrder = propertyGroups.map((properties) => ({
   noEmptyLineBetween: true,
-  emptyLineBefore: "threshold",
   properties,
 }));
 
@@ -36,14 +36,12 @@ const config = {
         { type: "at-rule", name: "import" },
         { type: "at-rule", name: "forward" },
         { type: "at-rule", name: "use" },
+        { type: "at-rule", name: "include" },
+        { type: "at-rule", name: "extend" },
         "dollar-variables",
         "at-variables",
         "custom-properties",
         { type: "at-rule", name: "custom-media" },
-        { type: "at-rule", name: "function" },
-        { type: "at-rule", name: "mixin" },
-        { type: "at-rule", name: "extend" },
-        { type: "at-rule", name: "include" },
         "declarations",
         {
           type: "rule",
@@ -62,8 +60,6 @@ const config = {
       {
         severity: "warning",
         unspecified: "bottomAlphabetical",
-        emptyLineBeforeUnspecified: "always",
-        emptyLineMinimumPropertyThreshold: 5,
       },
     ],
   },
