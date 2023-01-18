@@ -6,9 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2023-01-18
+### Added
+- Lint Order support to the CSS and SCSS rules, not the M2 related rules
+
 ## [2.0.1] - 2022-11-28
 ### Fixed
-- Line length rule on Tailwind by unsetting it
+- Unset Line length rule for on Tailwind, since `@apply` will create a long length
 
 ## [2.0.0] - 2022-11-28
 ### Added
