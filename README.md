@@ -49,7 +49,8 @@ We offer special rules for the following frameworks;
 - Magento (SCSS) `"@mooore/stylelint-config/snowdog",`
 - Magento (Hyva) `"@mooore/stylelint-config/hyva",`
 
-Simple add the last part to your extends option to use the specific rules.
+Simply add the last part to your extends option,
+to use the specific rules.
 
 ## Rules
 
