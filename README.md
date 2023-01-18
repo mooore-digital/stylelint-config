@@ -42,16 +42,14 @@ then add your overrides and additions there.
 
 ## Extensions
 
-### Magento (LESS)
+We offer special rules for the following frameworks;
 
-We moved to the SCSS version as default compiler.
-To use the LESS version add magento to the end.
+- SCSS `"@mooore/stylelint-config/scss",`
+- Magento (LESS) `"@mooore/stylelint-config/luma",`
+- Magento (SCSS) `"@mooore/stylelint-config/snowdog",`
+- Magento (Hyva) `"@mooore/stylelint-config/hyva",`
 
-```json
-{
-  "extends": "@mooore/stylelint-config/luma"
-}
-```
+Simple add the last part to your extends option to use the specific rules.
 
 ## Rules
 
