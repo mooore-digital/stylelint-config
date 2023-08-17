@@ -25,8 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Magento LESS `@mooore/stylelint-config/luma`
   - Magento Hyva `@mooore/stylelint-config/hyva`
   - You can still use the import options as fallback but are now not required
-  - Exception is for Snowdog (Magento SCSS) rules,
-    this still requires our our rules to be imported with: `@mooore/stylelint-config/snowdog`
 
 ## [2.1.0] - 2023-01-18
 ### Added
