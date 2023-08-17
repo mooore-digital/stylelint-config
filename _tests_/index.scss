@@ -1,87 +1,27 @@
 @use "sass:color";
-@import "import.css";
-@use "use" as *;
+
+@mixin use-mixin {
+    color: red;
+}
 
 $var-name: "prop" !default;
 $bg: rgba(#ddd, 0.3) !default;
 
-.order-example {
+.scss-example {
     @include use-mixin;
-
-    /* var's/special setters */
     --color-theme: hsl(270 50% 40%);
     --#{$var-name}: "value";
-    content: attr();
-    counter-reset: section;
-    counter-increment: section;
-    quotes: "“" "”" "‘" "’";
-    box-sizing: border-box;
+    color: 0 0 0 $bg;
 
-    /* Positioning */
-    z-index: 1;
-    position: absolute;
-    right: 0;
+    @if $var-name {
+        // if true
+    } @else {
+        // if false
+    }
 
-    /* Layout */
-    display: block;
-    float: left;
-    grid-column: span 2;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    table-layout: fixed;
-
-    /* Shape */
-    shape-outside: circle(50%);
-    clip-path: circle(50%);
-    width: auto;
-    max-width: 100%;
-    min-width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
-    margin: auto;
-    padding: 0;
-    border-radius: 50%;
-    border: 1px solid currentcolor;
-    box-shadow: 0 0 0 color.change(#fff, $opacity: 0.2);
-    outline: none;
-
-    /* Visual */
-    background-color: #eee;
-    color: #333;
-
-    /* Typographic */
-    font-family: system-ui, sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    text-align: center;
-    vertical-align: middle;
-    white-space: pre;
-    hyphens: auto;
-    overflow-wrap: break-word;
-
-    /* Overflow */
-    overflow: visible;
-
-    /* Animation */
-    opacity: 0.8;
-    transform: scaleX(1);
-    transition: transform 0.2s linear;
-    animation: 3s infinite;
-
-    /* svg */
-    fill: currentcolor; /* svg */
-    stroke: currentcolor; /* svg */
-
-    /* Misc */
-    appearance: none;
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-}
-
-/* Fylgja specific */
-.class {
-    &.-with-modifier {
-        --var: var(--text, "yeah");
+    @for $i from 1 through 3 {
+        ul:nth-child(3n + #{$i}) {
+            background-color: color.change($bg, $lightness: ($i * 5%));
+        }
     }
 }
