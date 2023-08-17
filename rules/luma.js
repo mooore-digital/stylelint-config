@@ -1,4 +1,7 @@
+const postcssLess = require("postcss-less");
+
 module.exports = {
+  customSyntax: postcssLess,
   rules: {
     "at-rule-no-unknown": [
       true,

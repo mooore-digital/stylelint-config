@@ -1,7 +1,11 @@
+const postcssScss = require("postcss-scss");
+
 module.exports = {
-  extends: ["@fylgja/stylelint-config/rules/scss"],
-  customSyntax: "postcss-scss",
+  customSyntax: postcssScss,
+  plugins: ["stylelint-scss"],
   rules: {
+    "at-rule-empty-line-before": null,
+    "at-rule-no-unknown": null,
     "scss/at-else-closing-brace-newline-after": [
       "always-last-in-chain",
       { severity: "warning" },
@@ -32,7 +36,6 @@ module.exports = {
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-mixin-argumentless-call-parentheses": null,
     "scss/at-mixin-parentheses-space-before": null,
-    "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": [true, { severity: "warning" }],
     "scss/dollar-variable-colon-space-after": null,
     "scss/dollar-variable-colon-space-before": null,
