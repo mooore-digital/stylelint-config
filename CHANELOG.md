@@ -20,13 +20,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Missing extends for Order lint rules
 
 ### Removed
-- Need to use multiple imports options, in favour for 1 import, with 1 exception
-  - You can still use the folllowing import options,
-    but are not needed anymore and are automatically used based in the file type instead now
-    - SCSS `@mooore/stylelint-config/scss`
-    - Magento LESS `@mooore/stylelint-config/luma`
-    - Magento Hyva `@mooore/stylelint-config/hyva`
-  - Exception is for Snowdog (Magento SCSS) rules, this still requires our our rules to be imported with: `@mooore/stylelint-config/snowdog`
+- The import options for
+  - SCSS `@mooore/stylelint-config/scss`
+  - Magento LESS `@mooore/stylelint-config/luma`
+  - Magento Hyva `@mooore/stylelint-config/hyva`
+  - You can still use the import options as fallback but are now not required
+  - Exception is for Snowdog (Magento SCSS) rules,
+    this still requires our our rules to be imported with: `@mooore/stylelint-config/snowdog`
 
 ## [2.1.0] - 2023-01-18
 ### Added
