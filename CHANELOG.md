@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Support for Astro and Svelte
+
+### Changed
+- Updated to stylelint v15 and Fylgja Stylelint Config v6
+  - This update droppes stylistic rules that are deprecated by stylelint
+  - This considered a none breaking change, since we used to only check these rules with the status warning
+- Tests to meet new standard for stylelint v15
+- Dropped node 14 support, node 16 or higher is now required
+
+### Fixed
+- Missing extends for Order lint rules
 
 ### Removed
 - Need to use multiple imports options, in favour for 1 import, with 1 exception
