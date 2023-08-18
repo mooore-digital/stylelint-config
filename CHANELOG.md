@@ -6,6 +6,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Support for Astro and Svelte
+
+### Changed
+- Updated to stylelint v15 and Fylgja Stylelint Config v6
+  - This update droppes stylistic rules that are deprecated by stylelint
+  - This considered a none breaking change, since we used to only check these rules with the status warning
+- Tests to meet new standard for stylelint v15
+- Dropped node 14 support, node 16 or higher is now required
+
+### Fixed
+- Missing extends for Order lint rules
+
+### Removed
+- The import options for
+  - SCSS `@mooore/stylelint-config/scss`
+  - Magento LESS `@mooore/stylelint-config/luma`
+  - Magento Hyva `@mooore/stylelint-config/hyva`
+  - You can still use the import options as fallback but are now not required
+
 ## [2.1.0] - 2023-01-18
 ### Added
 - Lint Order support to the CSS and SCSS rules, not the M2 related rules
